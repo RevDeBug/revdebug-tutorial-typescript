@@ -1,0 +1,19 @@
+{
+    "host":        "revdebug.server.address",
+    "apm":         true, 
+    "screen":      true,
+    "screenTime":  10,
+    "version":     "1.0.0", 
+    "solution":    "TypeScript and React Calculator", 
+    "application": "TypeScript/React Calculator Example", 
+    "type":        "module", 
+    "mode":        "onevent", 
+    "sourceMap":   true,
+    "path":        "src", 
+    "files":       "**/*.{ts,tsx}", 
+    "index":       "public/index.html", 
+    "excludeInst": "import",
+    "target":      "web", 
+    "entrySpan":   "single", 
+    "useFMP":      true
+}
